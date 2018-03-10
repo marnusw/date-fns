@@ -3,6 +3,7 @@ import getUTCISOWeek from '../../../_lib/getUTCISOWeek/index.js'
 import getUTCISOWeekYear from '../../../_lib/getUTCISOWeekYear/index.js'
 import getUTCWeek from '../../../_lib/getUTCWeek/index.js'
 import getUTCWeekYear from '../../../_lib/getUTCWeekYear/index.js'
+import tzMakeDateTimeFormat from '../../../_lib/tzMakeDateTimeFormat/index.js'
 
 var dayPeriodEnum = {
   am: 'am',
@@ -656,6 +657,14 @@ var formatters = {
       default:
         return 'GMT' + formatTimezone(timezoneOffset, ':')
     }
+  },
+
+  // Timezone localized (EST, PST, BST)
+  // enUS Intl format: "12/19/2012, 22:00:00 EST"
+  Z: function (date, token, localize, options) {
+    var originalDate = options._originalDate || date
+    var intlFormatted = tzMakeDateTimeFormat(options.timeZone, options.locale).format(originalDate)
+    return intlFormatted.substr(intlFormatted.lastIndexOf(' ') + 1)
   },
 
   // Seconds timestamp

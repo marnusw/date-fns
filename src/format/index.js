@@ -177,6 +177,7 @@ var doubleQuoteRegExp = /''/g
  * |                                 | OOOO    | GMT-08:00, GMT+05:30, GMT+00:00   | 2     |
  * | Timezone (specific non-locat.)  | z...zzz | GMT-8, GMT+5:30, GMT+0            | 6     |
  * |                                 | zzzz    | GMT-08:00, GMT+05:30, GMT+00:00   | 2,6   |
+ * | Timezone (localised)            | Z       | EST, PST, BST                     |       |
  * | Seconds timestamp               | t       | 512969520                         | 7     |
  * |                                 | tt      | ...                               | 3,7   |
  * | Milliseconds timestamp          | T       | 512969520900                      | 7     |

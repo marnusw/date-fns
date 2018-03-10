@@ -168,6 +168,7 @@ var doubleQuoteRegExp = /''/g
  * |                                 |     | xxx     | -08:00, +05:30, +00:00            | 2     |
  * |                                 |     | xxxx    | -0800, +0530, +0000, +123456      |       |
  * |                                 |     | xxxxx   | -08:00, +05:30, +00:00, +12:34:56 |       |
+ * | Timezone (IANA)                 |     | Z       | America/New_York, etc.            |       |
  * | Seconds timestamp               |  10 | t       | 512969520                         |       |
  * |                                 |     | tt      | ...                               | 2     |
  * | Milliseconds timestamp          |  10 | T       | 512969520900                      |       |

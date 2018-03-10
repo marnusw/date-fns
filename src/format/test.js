@@ -1,6 +1,7 @@
 // @flow
 /* eslint-env mocha */
 
+import enGB from '../locale/en-GB'
 import assert from 'power-assert'
 import format from '.'
 
@@ -502,6 +503,15 @@ describe('format', function () {
     it('milliseconds timestamp', function () {
       var result = format(date, 'T')
       assert(result === timestamp)
+
+    it('specific time zone with or without locale', function () {
+      var date = new Date('1990-06-10T20:30:40Z')
+      var result = format(date, 'Z', {timeZone: 'America/New_York'})
+      assert(result === 'EST')
+      var resultEnUS = format(date, 'Z', {timeZone: 'Europe/Paris'})
+      assert(resultEnUS === 'GMT+2')
+      var resultEnGB = format(date, 'Z', {timeZone: 'Europe/Paris', locale: enGB})
+      assert(resultEnGB === 'CEST')
     })
   })
 

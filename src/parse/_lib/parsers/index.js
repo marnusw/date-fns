@@ -5,6 +5,7 @@ import startOfUTCWeek from '../../../_lib/startOfUTCWeek/index.js'
 import setUTCISODay from '../../../_lib/setUTCISODay/index.js'
 import setUTCISOWeek from '../../../_lib/setUTCISOWeek/index.js'
 import startOfUTCISOWeek from '../../../_lib/startOfUTCISOWeek/index.js'
+import tzOffsetMinutes from '../../../_lib/tzOffsetMinutes/index.js'
 
 var MILLISECONDS_IN_HOUR = 3600000
 var MILLISECONDS_IN_MINUTE = 60000
@@ -39,7 +40,8 @@ var timezonePatterns = {
   basic: /^([+-])(\d{2})(\d{2})|Z/,
   basicOptionalSeconds: /^([+-])(\d{2})(\d{2})((\d{2}))?|Z/,
   extended: /^([+-])(\d{2}):(\d{2})|Z/,
-  extendedOptionalSeconds: /^([+-])(\d{2}):(\d{2})(:(\d{2}))?|Z/
+  extendedOptionalSeconds: /^([+-])(\d{2}):(\d{2})(:(\d{2}))?|Z/,
+  iana: /^(UTC|(?:[a-zA-Z]+\/[a-zA-Z_]+(?:\/[a-zA-Z_]+)?))$/
 }
 
 function parseNumericPattern (pattern, string) {
@@ -978,6 +980,18 @@ var parsers = {
     },
     set: function (date, value, token, options) {
       return new Date(date.getTime() - value)
+    }
+  },
+
+  // Timezone (IANA)
+  Z: {
+    priority: 20,
+    parse: function (string, token, match, options) {
+      var matchResult = string.match(timezonePatterns.iana)
+      return matchResult[1]
+    },
+    set: function (date, value, token, options) {
+      return -tzOffsetMinutes(value, date)
     }
   },
 
