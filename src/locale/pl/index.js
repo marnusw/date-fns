@@ -15,6 +15,7 @@
  * @author Mikolaj Grzyb [@mikolajgrzyb]{@link https://github.com/mikolajgrzyb}
  */
 // var locale = {
+//   code: 'pl',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

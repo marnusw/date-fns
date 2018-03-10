@@ -14,6 +14,7 @@
  * @author Alexander Nanberg [@alexandernanberg]{@link https://github.com/alexandernanberg}
  */
 // var locale = {
+//   code: 'sv',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

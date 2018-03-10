@@ -14,6 +14,7 @@
  * @author Pavel Hrách [@SilenY]{@link https://github.com/SilenY}
  */
 // var locale = {
+//   code: 'cs',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

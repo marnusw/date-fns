@@ -15,6 +15,7 @@
  * @author Andrii Korzh [@korzhyk]{@link https://github.com/korzhyk}
  */
 // var locale = {
+//   code: 'uk',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

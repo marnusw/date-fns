@@ -16,6 +16,7 @@
  * @author Edo Rivai [@edorivai]{@link https://github.com/edorivai}
  */
 // var locale = {
+//   code: 'nl',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

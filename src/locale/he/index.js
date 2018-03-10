@@ -13,6 +13,7 @@
  * @author Nir Lahad [@nirlah]{@link https://github.com/nirlah}
  */
 // var locale = {
+//   code: 'he',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

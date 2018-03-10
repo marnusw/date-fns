@@ -16,6 +16,7 @@
  * @author François B [@fbonzon]{@link https://github.com/fbonzon}
  */
 // var locale = {
+//   code: 'fr',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

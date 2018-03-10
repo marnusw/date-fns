@@ -15,6 +15,7 @@
  * @author Budi Irawan [@deerawan]{@link https://github.com/deerawan}
  */
 // var locale = {
+//   code: 'id',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

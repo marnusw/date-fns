@@ -15,6 +15,7 @@
  * @author [@stefanbugge]{@link https://github.com/stefanbugge}
  */
 // var locale = {
+//   code: 'da',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

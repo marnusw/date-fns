@@ -13,6 +13,7 @@
  * @author tonypai [@tpai]{@link https://github.com/tpai}
  */
 // var locale = {
+//   code: 'zh-TW',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

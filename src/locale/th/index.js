@@ -14,6 +14,7 @@
  * @author [@hawkup]{@link https://github.com/hawkup}
  */
 // var locale = {
+//   code: 'th',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

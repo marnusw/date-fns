@@ -13,6 +13,7 @@
  * @author Sergiu Munteanu [@jsergiu]{@link https://github.com/jsergiu}
  */
 // var locale = {
+//   code: 'ro',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

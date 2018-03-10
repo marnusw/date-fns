@@ -13,6 +13,7 @@
  * @author Guillermo Grau [@guigrpa]{@link https://github.com/guigrpa}
  */
 // var locale = {
+//   code: 'ca',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

@@ -13,6 +13,7 @@
  * @author Derek Blank [@derekblank]{@link https://github.com/derekblank}
  */
 // var locale = {
+//   code: 'is',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

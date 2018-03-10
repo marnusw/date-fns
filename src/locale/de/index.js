@@ -15,6 +15,7 @@
  * @author Van Vuong Ngo [@vanvuongngo]{@link https://github.com/vanvuongngo}
  */
 // var locale = {
+//   code: 'de',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

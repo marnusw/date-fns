@@ -13,6 +13,7 @@
  * @author Dário Freire [@dfreire]{@link https://github.com/dfreire}
  */
 // var locale = {
+//   code: 'pt',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

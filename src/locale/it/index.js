@@ -14,6 +14,7 @@
  * @author Giovanni Polimeni [@giofilo]{@link https://github.com/giofilo}
  */
 // var locale = {
+//   code: 'it',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

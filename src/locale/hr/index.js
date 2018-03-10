@@ -16,6 +16,7 @@
  * @author Manico [@manico]{@link https://github.com/manico}
  */
 // var locale = {
+//   code: 'hr',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

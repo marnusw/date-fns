@@ -14,6 +14,7 @@
  * @author Edo Rivai [@mikolajgrzyb]{@link https://github.com/mikolajgrzyb}
  */
 // var locale = {
+//   code: 'fi',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

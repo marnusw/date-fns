@@ -13,6 +13,7 @@
  * @author BADREDDINE BOUMAZA [@BADRE429]{@link https://github.com/badre429}
  */
 // var locale = {
+//   code: 'ar-DZ',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

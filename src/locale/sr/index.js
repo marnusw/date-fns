@@ -15,6 +15,7 @@
  * @author Nemanja Šćepanović [@nscepanovic]{@link https://github.com/nscepanovic}
  */
 // var locale = {
+//   code: 'sr',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

@@ -13,6 +13,7 @@
  * @author Marnus Weststrate [@marnusw]{@link https://github.com/marnusw}
  */
 // var locale = {
+//   code: 'af',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

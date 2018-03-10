@@ -15,6 +15,7 @@
  * @author sabrinaM [@sabrinamiao]{@link https://github.com/sabrinamiao}
  */
 // var locale = {
+//   code: 'zh-CN',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,

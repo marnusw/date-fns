@@ -13,6 +13,7 @@
  * @author Lado Lomidze [@Landish]{@link https://github.com/Landish}
  */
 // var locale = {
+//   code: 'ka',
 //   formatDistance: formatDistance,
 //   formatLong: formatLong,
 //   formatRelative: formatRelative,
